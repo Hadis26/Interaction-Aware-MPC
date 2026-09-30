@@ -70,7 +70,7 @@ The negotiated reachable regions are subsequently converted into time-indexed dr
  
 **Based on:** Thesis Figure 4.4
 
-![Non-cooperative forced merge](fig_03_noncooperative_merge.pdf)
+[Non-cooperative forced merge](fig_03_noncooperative_merge.pdf)
 
 ### What the figure shows
 
@@ -96,7 +96,7 @@ This case illustrates the central limitation of purely conservative interaction 
 
 **Based on:** Thesis Figure 4.6
 
-![Cooperative forced merge](fig_04_cooperative_merge.pdf)
+[Cooperative forced merge](fig_04_cooperative_merge.pdf)
 
 ### What the figure shows
 
