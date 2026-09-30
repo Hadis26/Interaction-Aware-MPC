@@ -22,6 +22,30 @@ The developed framework combines:
 
 ---
 
+## Implementation
+
+The complete research framework was implemented in **Python**.
+
+The implementation included:
+
+- closed-loop simulation of the forced-merge scenario,
+- nonlinear Model Predictive Control,
+- graph-based and ellipsoidal reachability analysis,
+- centralized negotiation of reachable regions,
+- corridor extraction,
+- probabilistic behavior inference,
+- numerical optimization,
+- simulation logging and evaluation,
+- and automated generation of result figures.
+
+The original source code is not publicly included in this repository due to
+academic/project restrictions.
+
+This repository therefore documents the software architecture, methodology,
+simulation setup, and selected results of the implementation.
+
+---
+
 ## Scenario
 
 The framework is evaluated in a highway **forced-merge scenario**.
