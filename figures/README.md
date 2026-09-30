@@ -18,7 +18,6 @@ The recommended set below covers the main stages of the project:
 
 ## Figure 1 — Environment-Aware SV Occupancy Ellipsoids
 
-**Suggested file:** `fig_01_environment_aware_occupancy.png`  
 **Based on:** Thesis Figure 4.1
 
 ![Environment-aware occupancy ellipsoids](fig_01_environment_aware_occupancy.png)
@@ -43,7 +42,6 @@ The resulting occupancies are used directly inside the collision-avoidance MPC a
 
 ## Figure 2 — Negotiated Reachable Sets
 
-**Suggested file:** `fig_02_negotiated_reachable_sets.png`  
 **Based on:** Thesis Figure 4.3
 
 ![Negotiated reachable sets](fig_02_negotiated_reachable_sets.png)
@@ -69,8 +67,7 @@ The negotiated reachable regions are subsequently converted into time-indexed dr
 ---
 
 ## Figure 3 — Non-Cooperative Forced-Merge Behavior
-
-**Suggested file:** `fig_03_noncooperative_merge.png`  
+ 
 **Based on:** Thesis Figure 4.4
 
 ![Non-cooperative forced merge](fig_03_noncooperative_merge.png)
@@ -97,7 +94,6 @@ This case illustrates the central limitation of purely conservative interaction 
 
 ## Figure 4 — Cooperative Forced-Merge Behavior
 
-**Suggested file:** `fig_04_cooperative_merge.png`  
 **Based on:** Thesis Figure 4.6
 
 ![Cooperative forced merge](fig_04_cooperative_merge.png)
@@ -126,7 +122,6 @@ This produces smoother and more efficient motion.
 
 ## Figure 5 — Online Belief Update During a Behavior Change
 
-**Suggested file:** `fig_05_behavior_belief_switch.png`  
 **Based on:** Thesis Figure 4.13
 
 ![Behavior belief evolution](fig_05_behavior_belief_switch.png)
@@ -155,49 +150,4 @@ Instead, it continuously updates its belief and uses that belief to decide wheth
 This is what connects prediction, interaction reasoning, and planning into one closed-loop architecture.
 
 ---
-
-# Recommended Order in the Main README
-
-For a compact project showcase, the figures should appear in this order:
-
-1. **Environment-aware occupancy ellipsoids**  
-   Shows how uncertainty is represented.
-
-2. **Negotiated reachable sets**  
-   Shows how cooperative conflicts are resolved.
-
-3. **Non-cooperative merge**  
-   Shows conservative safety behavior.
-
-4. **Cooperative merge**  
-   Shows the efficiency benefit of cooperation.
-
-5. **Behavior-belief switch**  
-   Shows how the system adapts when the SV behavior changes.
-
-Together, these five figures tell the full story of the project:
-
-```text
-uncertainty
-    ↓
-reachability
-    ↓
-interaction handling
-    ↓
-trajectory planning
-    ↓
-behavior inference and adaptation
-```
-
----
-
-# Figure Usage Note
-
-Only figures that you are permitted to redistribute should be added to this folder.
-
-The recommended figures above are simulation-result figures from the thesis project itself.
-
-Figures explicitly marked in the thesis as being **reprinted from external publications** should not be copied into this repository unless the corresponding redistribution rights have been verified.
-
-If there is any uncertainty about a figure, recreate the concept as an original diagram instead of copying the published image.
 """
